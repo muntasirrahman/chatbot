@@ -2,13 +2,45 @@
 
 This app uses Vercel's [AI SDK](https://github.com/vercel-labs/ai) to stream tokens to the client and display the incoming messages.
 
-## Getting Started
+## Clone
 
 Clone the repo.
 
-Copy the `.env.example` file to `.env.local`. Set the OpenAI API key value.
+```bash
+git clone https://github.com/muntasirrahman/chatbot.git
+```
 
-Start:
+## Forking this repository
+
+Forking and synchronizing with this repository
+
+Add this repo as upstream repository
+
+```bash
+git remote add upstream https://github.com/muntasirrahman/chatbot.git
+```
+
+Choose how to resolve the conflict
+
+```bash
+git config pull.rebase false
+```
+
+Pull the source
+
+```bash
+git pull --allow-unrelated-histories upstream main
+```
+
+## Launch the development server
+
+Copy the `.env.example` file to `.env.local`. Set the OpenAI API key value, e.g.:
+
+```
+OPENAI_API_KEY="sk-abcdefghi"
+```
+
+To launch the development server:
 
 ```bash
 pnpm dev
