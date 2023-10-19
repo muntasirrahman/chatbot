@@ -1,13 +1,11 @@
 export const label = {
-  title: "Sophia",
-  bannerTitle: "Sophia",
-  htmlTitle: "Sophia - Study Ancient Greek Philosophy through chat",
+  title: "AIREA",
+  bannerTitle: "AIREA",
+  htmlTitle: "AIREA - Konselor Karir",
   description:
-    "Sophia is an app to study ancient Greek Philosophy through chat. You can ask questions about Philosophy and get answers from the ancient Greek Philosophy writings.",
-  placeHolder: "Type your question here",
+      "AIREA - Konselor Karir & Kehidupan untuk membantu kamu dalam mengatasi work and life problems",
+  placeHolder: "Ketik pertanyaan kamu disini",
   examples: `<ul>
-      <li>One or two words: <code>afterlife</code></li>
-      <li>Short question: <code>What is the meaning of life?</code></li>
-    </ul>`,
+    <li className="text-l">Kamu bisa cerita atau bertanya mengenai karir dan kehidupan sehari-hari, misalnya <code>saya merasa karir saya mentok</code></li></ul>`,
   sendButton: "Send",
 };
