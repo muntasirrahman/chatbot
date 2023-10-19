@@ -1,13 +1,16 @@
 export const label = {
-  title: "Sophia",
-  bannerTitle: "Sophia",
-  htmlTitle: "Sophia - Study Ancient Greek Philosophy through chat",
+  title: "Kaji Quran",
+  bannerTitle: "Kaji Quran",
+  htmlTitle: "Kaji Quran melalui sembang",
   description:
-    "Sophia is an app to study ancient Greek Philosophy through chat. You can ask questions about Philosophy and get answers from the ancient Greek Philosophy writings.",
-  placeHolder: "Type your question here",
-  examples: `<ul>
-      <li>One or two words: <code>afterlife</code></li>
-      <li>Short question: <code>What is the meaning of life?</code></li>
+      "Perisian ini adalah untuk membantu anda mempelajari teks al-Quran melalui sembang. Anda boleh mengajukan pertanyaan tentang Islam dan mendapatkan jawaban dari Al-Quran. Namun, perisian ini bukanlah pakar dalam perkara Islam. Semak dan rujuk jawapannya dengan guru agama anda, atau alim ulama.",
+
+  examples: `<ul>Cara-cara bertanya soalan:
+      <li>Satu dua perkataan: <code>tawakkal</code></li>
+      <li>Soalan ringkas: <code>ujian dan cabaran</code></li>
+      <li>Memaparkan Bab dan ayat Al-Quran: <code>2:255</code></li>
+      <li>Bab dan julat ayat Al-Quran: <code>1:1-3</code></li>
     </ul>`,
-  sendButton: "Send",
+  placeHolder: "Taip soalan anda di sini",
+  sendButton: "Hantar",
 };
